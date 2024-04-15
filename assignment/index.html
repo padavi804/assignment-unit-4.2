@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>Unit 4, Part 2: HTML/CSS Practice</title>
-    <!-- Used for automated testing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.min.js" integrity="sha512-jsP/sG70bnt0xNVJt+k9NxQqGYvRrLzWhI+46SSf7oNJeCwdzZlBvoyrAN0zhtVyolGcHNh/9fEgZppG2pH+eA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css" integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.7/chai.min.js" integrity="sha512-Pwgr3yHn4Gvztp1GKl0ihhAWLZfqgp4/SbMt4HKW7AymuTQODMCNPE7v1uGapTeOoQQ5Hoz367b4seKpx6j7Zg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Create and link a CSS file! -->
-<link href="styles.css" rel="stylesheet" />
-  </head>
-  <header>
-    <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
-    <p>See console for output. <a href="">Refresh</a> the page to re-run tests.</p>
-  </header>
-  
-  <body>
-    <div class="info">
-      <h2>My name is Pat</h2>
+<head>
+  <meta charset="utf-8">
+  <title>Unit 4, Part 2: HTML/CSS Practice</title>
+  <!-- Used for automated testing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.min.js"
+    integrity="sha512-jsP/sG70bnt0xNVJt+k9NxQqGYvRrLzWhI+46SSf7oNJeCwdzZlBvoyrAN0zhtVyolGcHNh/9fEgZppG2pH+eA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css"
+    integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.7/chai.min.js"
+    integrity="sha512-Pwgr3yHn4Gvztp1GKl0ihhAWLZfqgp4/SbMt4HKW7AymuTQODMCNPE7v1uGapTeOoQQ5Hoz367b4seKpx6j7Zg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Create and link a CSS file! -->
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<header>
+  <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
+  <p>See console for output. <a href="">Refresh</a> the page to re-run tests.</p>
+</header>
+
+<body>
+  <div class="info">
+    <h2>My name is Pat</h2>
+  </div>
+  <div class="row">
+    <div id="truck" class="column">
+      <img src="truck.jpg" alt="truck in mountains" style="width: 100%;" />
     </div>
-<img src="truck.jpg"/>
+    <div id="bike" class="column">
+    <img src=" wfbike.jpg" alt="MTB" style="width: 100%;" />
+  </div>
+  </div>
 
-<h3>
-  This is my mobile base camp, but my daily driver is a bike!
-</h3>
+  <!-- SxS photo reference: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp -->
 
-    <!-- Used for automated testing -->
-    <div id="mocha"></div>
-    <link rel="stylesheet" href="../test/test.styles.css" />
-    <script src="../test/test.js"></script>
-  </body>
+  <h3>
+    This is my mobile base camp, but my daily driver is a bike!
+  </h3>
+
+  <!-- Used for automated testing -->
+  <div id="mocha"></div>
+  <link rel="stylesheet" href="../test/test.styles.css" />
+  <script src="../test/test.js"></script>
+</body>
+
 </html>
