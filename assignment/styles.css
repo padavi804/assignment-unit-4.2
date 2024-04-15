@@ -1,0 +1,22 @@
+header {
+    background-color: burlywood;
+    
+}
+h2 {
+    background-color: rgb(136, 192, 253);
+    color: rgb(66, 95, 64);
+    text-align: center;
+    padding: 10px;
+    
+
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h3 {
+    background-color: rgb(136, 192, 253);
+    color: rgb(66, 95, 64);  
+    text-align: center;
+    padding: 5px;
+}
